@@ -21,6 +21,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -101,12 +107,6 @@
         {
         "MsmKey" = "8:_ED8E97B20851BA4FAE2F50F532B4A556"
         "OwnerKey" = "8:_55945E23C1AC4EEA916AB14C1DCF5741"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_FBAB942CE4634E048D62740085632582"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -218,6 +218,26 @@
             {
             "SourcePath" = "8:..\\WakeUp\\Clock.ico"
             "TargetName" = "8:Clock.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_F1BC94507362457C9E53403F3E32572F"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24A250AE440A4B76AC74D3BB7E6A233B"
+            {
+            "SourcePath" = "8:Uninstall.bat"
+            "TargetName" = "8:Uninstall.bat"
             "Tag" = "8:"
             "Folder" = "8:_F1BC94507362457C9E53403F3E32572F"
             "Condition" = "8:"
@@ -398,26 +418,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FBAB942CE4634E048D62740085632582"
-            {
-            "SourcePath" = "8:X:\\Desktop\\Uninstall.bat"
-            "TargetName" = "8:Uninstall.bat"
-            "Tag" = "8:"
-            "Folder" = "8:_F1BC94507362457C9E53403F3E32572F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_FE54886789F8158C47F3E0269BD2A636"
             {
             "AssemblyRegister" = "3:1"
@@ -517,7 +517,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:WakeUpSetup"
         "ProductCode" = "8:{B92A9440-0F61-4B0E-80BA-FA2E9835415A}"
-        "PackageCode" = "8:{D60C7E93-6CF1-447F-803E-675AF624CB53}"
+        "PackageCode" = "8:{AAC1FAFB-CDBF-4141-8095-365E8E6EE78F}"
         "UpgradeCode" = "8:{06DC8D04-90D6-4A61-9BD7-B31344C081AE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -645,7 +645,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FBAB942CE4634E048D62740085632582"
+            "Target" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
             "Folder" = "8:_00BCB29346CF4BF6B298D326DD42EF9A"
             "WorkingFolder" = "8:_F1BC94507362457C9E53403F3E32572F"
             "Icon" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
@@ -673,7 +673,7 @@
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
-            "Target" = "8:_FBAB942CE4634E048D62740085632582"
+            "Target" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
             "Folder" = "8:_D2F725DDA3A5428BAAB4BD82D4970170"
             "WorkingFolder" = "8:_F1BC94507362457C9E53403F3E32572F"
             "Icon" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
