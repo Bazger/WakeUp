@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -118,12 +112,6 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C5906CEDF6B204BA2E915962FC41158D"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_55945E23C1AC4EEA916AB14C1DCF5741"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -151,6 +139,12 @@
         "OwnerKey" = "8:_D4F6B7FD0D76370B01CFAA6A8B511636"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_C5906CEDF6B204BA2E915962FC41158D"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -169,6 +163,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -185,6 +187,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -218,26 +236,6 @@
             {
             "SourcePath" = "8:..\\WakeUp\\Clock.ico"
             "TargetName" = "8:Clock.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_F1BC94507362457C9E53403F3E32572F"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_24A250AE440A4B76AC74D3BB7E6A233B"
-            {
-            "SourcePath" = "8:Uninstall.bat"
-            "TargetName" = "8:Uninstall.bat"
             "Tag" = "8:"
             "Folder" = "8:_F1BC94507362457C9E53403F3E32572F"
             "Condition" = "8:"
@@ -515,9 +513,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:WakeUpSetup"
+        "ProductName" = "8:WakeUp"
         "ProductCode" = "8:{B92A9440-0F61-4B0E-80BA-FA2E9835415A}"
-        "PackageCode" = "8:{AAC1FAFB-CDBF-4141-8095-365E8E6EE78F}"
+        "PackageCode" = "8:{7AD9D06C-6F9F-4400-ABC7-AD7FFD4AB123}"
         "UpgradeCode" = "8:{06DC8D04-90D6-4A61-9BD7-B31344C081AE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -528,7 +526,7 @@
         "Manufacturer" = "8:BlacKnight com"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
-        "Title" = "8:WakeUpSetup"
+        "Title" = "8:WakeUp"
         "Subject" = "8:"
         "ARPCONTACT" = "8:Bazger"
         "Keywords" = "8:"
@@ -637,20 +635,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_1DCCF23C4C3E4AE3A21E778FBB6433E5"
-            {
-            "Name" = "8:Uninstall"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
-            "Folder" = "8:_00BCB29346CF4BF6B298D326DD42EF9A"
-            "WorkingFolder" = "8:_F1BC94507362457C9E53403F3E32572F"
-            "Icon" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
-            "Feature" = "8:"
-            }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_2C88307AFCEA4379BB806B8442575335"
             {
             "Name" = "8:WakeUp"
@@ -663,20 +647,6 @@
             "Folder" = "8:_00BCB29346CF4BF6B298D326DD42EF9A"
             "WorkingFolder" = "8:_F1BC94507362457C9E53403F3E32572F"
             "Icon" = "8:_1B92EE2B22F54C1A9FCB83B7953F4D4D"
-            "Feature" = "8:"
-            }
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_DDD6993512FF49D5B8BA51806FAFBBAE"
-            {
-            "Name" = "8:Uninstal"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_24A250AE440A4B76AC74D3BB7E6A233B"
-            "Folder" = "8:_D2F725DDA3A5428BAAB4BD82D4970170"
-            "WorkingFolder" = "8:_F1BC94507362457C9E53403F3E32572F"
-            "Icon" = "8:_3F563AEB7A4B4575AFB89A6C9DFDAD46"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F719EFEBA1904FA1AE8C49D6844B12D8"
