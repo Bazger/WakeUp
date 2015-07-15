@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WakeUp", "WakeUp\WakeUp.csproj", "{7825D389-24D9-4D40-BD66-133D76EA82C6}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WakeUpSetup", "WakeUpSetup\WakeUpSetup.vdproj", "{89832DA4-1801-4F5C-B33D-122E8F89445F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7825D389-24D9-4D40-BD66-133D76EA82C6}.Debug|x86.ActiveCfg = Debug|x86
+		{7825D389-24D9-4D40-BD66-133D76EA82C6}.Debug|x86.Build.0 = Debug|x86
+		{7825D389-24D9-4D40-BD66-133D76EA82C6}.Release|x86.ActiveCfg = Release|x86
+		{7825D389-24D9-4D40-BD66-133D76EA82C6}.Release|x86.Build.0 = Release|x86
+		{89832DA4-1801-4F5C-B33D-122E8F89445F}.Debug|x86.ActiveCfg = Debug
+		{89832DA4-1801-4F5C-B33D-122E8F89445F}.Release|x86.ActiveCfg = Release
+		{89832DA4-1801-4F5C-B33D-122E8F89445F}.Release|x86.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
